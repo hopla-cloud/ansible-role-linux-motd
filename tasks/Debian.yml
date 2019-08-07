@@ -15,10 +15,10 @@
     group: root
     mode: 0755
 
-- name: Add 11-help file
+- name: Add 52-help file
   copy:
-    src: files/11-hoplacloud-help
-    dest: /etc/update-motd.d/11-hoplacloud-help
+    src: files/52-hoplacloud-help
+    dest: /etc/update-motd.d/52-hoplacloud-help
     owner: root
     group: root
     mode: 0755
