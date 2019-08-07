@@ -6,16 +6,6 @@
   with_items:
     - lolcat
     - figlet
-    - cowsay
-    - fortune
-
-- name: Add 99-footer file
-  copy:
-    src: files/99-hoplacloud-footer
-    dest: /etc/update-motd.d/99-hoplacloud-footer
-    owner: root
-    group: root
-    mode: 0755
 
 - name: Add 51-sysinfo file
   copy:
