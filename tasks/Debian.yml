@@ -1,0 +1,34 @@
+---
+# tasks file for hoplacloud.linux_motd
+
+- name: Install motd tools
+  apt: name={{ item }} state=latest update_cache=yes
+  with_items:
+    - lolcat
+    - figlet
+    - cowsay
+    - fortune
+
+- name: Add 99-footer file
+  copy:
+    src: files/99-hoplacloud-footer
+    dest: /etc/update-motd.d/99-footer
+    owner: root
+    group: root
+    mode: 0755
+
+- name: Add 11-help file
+  copy:
+    src: files/11-hoplacloud-help
+    dest: /etc/update-motd.d/11-hoplacloud-help
+    owner: root
+    group: root
+    mode: 0755
+
+- name: Add 09-header file
+  copy:
+    src: files/09-hoplacloud-header
+    dest: /etc/update-motd.d/11-hoplacloud-help
+    owner: root
+    group: root
+    mode: 0755

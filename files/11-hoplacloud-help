@@ -1,0 +1,2 @@
+#!/bin/sh
+printf " * Hopla.cloud:    https://wiki.hopla.cloud\n"

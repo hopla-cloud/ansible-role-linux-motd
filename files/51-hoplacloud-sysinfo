@@ -1,0 +1,4 @@
+#!/bin/sh
+printf "\n"
+printf "Oneclick app Roles :"
+cat /etc/hopla.cloud-roles
