@@ -36,7 +36,7 @@
 - name: Add 09-header file
   copy:
     src: files/09-hoplacloud-header
-    dest: /etc/update-motd.d/11-hoplacloud-header
+    dest: /etc/update-motd.d/09-hoplacloud-header
     owner: root
     group: root
     mode: 0755
