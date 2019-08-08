@@ -6,9 +6,7 @@ galaxy_info:
   license: GPLv3
 
   min_ansible_version: 2.5
-  documentation: "https://wiki.hopla.cloud"
-  homepage: "https://hopla.cloud/"
-  readme: "README.md"
+
   platforms:
     - name: Ubuntu
       versions:
