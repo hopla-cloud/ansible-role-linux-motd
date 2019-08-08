@@ -11,12 +11,12 @@ None.
 Role Variables
 --------------
 
-No variables
+None.
 
 Dependencies
 ------------
 
-- hoplacloud.linux_update
+None.
 
 Example Playbook
 ----------------
