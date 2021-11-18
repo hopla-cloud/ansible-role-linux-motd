@@ -13,7 +13,7 @@
     name: figlet
 
 - name: Ensure lolcat is installed
-  gem:
+  community.general.gem::
     name: lolcat
     state: latest
     user_install: no
